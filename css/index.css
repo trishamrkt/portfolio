@@ -1,0 +1,54 @@
+body, html {
+	margin: 0;
+	font-family: "Raleway", sans-serif;
+	height: 100%;
+}
+
+.nav {
+  position: fixed;
+  width: 100%;
+  top: -50px;
+	overflow: hidden;
+	background-color: #222;
+  transition: 0.3s;
+  border-bottom: 3px solid #66fcf1;
+}
+
+.nav a {
+	float: left;
+	color: white;
+	text-decoration: none;
+	padding: 14px 16px;
+}
+
+.nav a:hover {
+	color: #66fcf1;
+	transition: 0.3s;
+}
+
+.nav-active {
+	background-color: #66fcf1;
+	color: black;
+}
+
+.panel {
+  height: 100%;
+  width: 100%;
+}
+
+.about {
+  margin: auto;
+  text-align: center;
+}
+
+.projects {
+  text-align: center;
+}
+
+.title {
+  font-family: "Prata", serif;
+  display: inline-block;
+  margin-top: 5%;
+  border-bottom: 5px solid #77e0d9;
+}
+

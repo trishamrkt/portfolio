@@ -1,0 +1,244 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>patricia</title>
+  <meta name="description" content="Patricia Marukot Portfolio">
+  <meta name="author" content="Patricia Marukot">
+
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Prata&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <link rel="stylesheet" type="text/css" href="css/home.css">
+  <link rel="stylesheet" type="text/css" href="css/projects.css">
+  <link rel="stylesheet" type="text/css" href="css/about.css">
+  <link rel="stylesheet" type="text/css" href="css/screen.css">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <meta name="viewport" content="width=device-width" />
+</head>
+
+<body>
+	<!-- NAV BAR -->
+	<div id="nav" class="nav">
+		<a href="#home">HOME</a>
+		<a href="#projects">PROJECTS</a>
+		<a href="#about">ABOUT</a>
+	</div>
+
+ 	<!-- HELLO PAGE -->
+ 	<div id="home" class="home panel">
+ 		<span id="hello">hello.</span></br>
+ 		<span id="greeting">my name is patricia marukot.</span></br>
+ 		<span id="school">university of toronto | ba.sc computer engineering</span></br>
+ 		<a href="#projects" id="learn-more">portfolio      <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+ 	</div>
+
+ 	<!-- PROJECTS -->
+ 	<div id="projects" class="projects">
+ 		<h1 class="title">projects</h1>
+ 		<div id="project-table" class="project-table">
+ 			<table>
+ 				<!-- rwalgebra.js -->
+ 				<tr> 
+ 					<td id="rwalgebra"></td>
+ 					<td>
+ 						<h2>rwalgebra.js</h2>
+ 						A math library for parsing, storing, and manipulating algebraic expressions.
+ 						Supports operations in the real and complex domains. <br>
+ 						— <br>
+ 						Research regarding various math expression parsing techniques used in compilers
+ 						was completed. Notably, the Shunting Yard, and post-fix notation were used in implementation.
+ 						<br> <br>
+
+ 						<strong>Notable Features:</strong>
+ 						<ul>
+ 							<li>
+ 								Arithmetic operations including: addition, subtraction, multiplication,
+ 								division, inversion
+ 							</li>
+ 							<li>
+ 								Algebraic expression string parsing 
+ 							</li>
+ 								Expression evaluation
+ 							<li>
+ 								Provide user access to each term in an expression
+ 							</li>
+ 							<li>
+ 								Display expressions in polar or cartesian coordinates
+ 							</li>
+ 							</li>
+ 						</ul>	
+
+ 						<strong>Github Link: </strong> <a href="https://github.com/capstone2019-2020/rwalgebrajs"
+ 							target=_blank>
+ 							https://github.com/capstone2019-2020/rwalgebrajs
+ 						</a> <br> 
+ 						<strong>Demo: </strong> <a href="https://trishamrkt.github.io/rwalgebra/"
+ 							target=_blank>
+ 							https://trishamrkt.github.io/rwalgebra/
+ 						</a> <br> 
+ 						<strong>Tool(s):</strong> NodeJS
+ 					</td>
+ 				</tr>
+
+ 				<tr> 
+ 					<td id="capstone"></td>
+ 					<td>
+ 						<h2>analog circuit analysis tool</h2>
+ 						Analog circuit analysis tool for signal flow graph generation,
+ 						and loop gain & transfer function calculation. <br>
+ 						— <br> 
+ 						A full-year capstone design project aimed to aid circuit designers in analog 
+ 						circuit stability analysis. Worked closely with a professor at the University of
+ 						Toronto to generate a detailed design doc and ensure project requirements were satisfied. 
+ 						<br><br>
+ 						<strong>Features Implemented:</strong>
+ 						<ul>
+ 							<li>Mason's rule algorithm</li>
+ 							<li>Dashboard UI</li>
+ 							<li>Node-edge graph visualization using Cytoscape.js library</li>
+ 							<li>Graph export into PNG and JPG format</li>
+ 							<li>Circuit schematic visualization using SVG elements</li>
+ 							<li>Unit tests using the MochaJS framework</li>
+ 						</ul>
+
+ 						<strong>Github Link: </strong> <a href="https://github.com/capstone2019-2020/Capstone"
+ 							target=_blank>
+ 							https://github.com/capstone2019-2020/Capstone
+ 						</a> <br> 
+ 						<strong>Tool(s):</strong> NodeJS, HTML, CSS, Javascript
+ 					</td>
+ 				</tr>
+
+ 				<tr> 
+ 					<td id="ms-paint"></td>
+ 					<td> 
+ 						<h2>ms paint</h2>
+ 						Cross-platform desktop application that mimics the functionality of MS Paint.<br>
+ 						Compatible with Linux, and Mac OS.<br>
+ 						— <br>
+ 						Uses the wxWidgets library to ensure cross-platform compatibility. Extensive research
+ 						was completed in order to understand and take leverage of all of the features offered
+ 						by wxWidgets. 
+ 						<br> <br>
+ 						<strong>Features Implemented:</strong>
+ 						<ul>
+ 							<li>Freehand drawing tool (pencil)</li>
+ 							<li>
+ 								Selection tools
+ 								<ul>
+ 									<li>Rectangle</li>
+ 									<li>Circle</li>
+ 									<li>Freehand</li>
+ 								</ul>
+ 							</li>
+ 							<li>Canvas resizing</li>
+ 							<li>Eraser tool</li>
+ 							<li>Stroke width selection</li>
+ 							<li>Colour selection</li>
+ 						</ul>
+ 						<strong>Github Link: </strong> <a href="https://github.com/sw-collabs/paint" target=_blank>
+ 							https://github.com/sw-collabs/paint
+ 						</a> <br>
+ 						<strong>Tool(s):</strong> C++, wxWidgets
+ 					</td>
+ 				</tr>
+
+ 				<tr> 
+ 					<td id="booklr"></td>
+ 					<td>
+ 						<h2>booklr</h2>
+ 						Book suggestion webpage. <br>
+ 						— <br>
+ 						A user is able to search for a book and the application will provide a list of books that
+ 						are similar to the entered book. The application uses Python to perform web-scraping in 
+ 						order to collect book data. The logic behind the suggestions relies mainly on the genre 
+ 						of the book and the author.
+ 						<br><br>
+ 						<strong>Notable Features</strong>
+ 						<ul>
+ 							<li>Search bar with automatic suggestions</li>
+ 							<li>Links to purchase the book on Amazon or Chapters</li>
+ 							<li>User can like/favourite books and view them later</li>
+ 						</ul>
+
+ 						<strong>Github Link: </strong> <a href="https://github.com/trishamrkt/book-suggestion-page"
+ 							target=_blank>
+ 							https://github.com/trishamrkt/book-suggestion-page
+ 						</a> <br> 
+ 						<strong>Demo: </strong> <a href="https://trishamrkt.github.io/book-suggestion-page/"
+ 							target=_blank>
+ 							https://trishamrkt.github.io/book-suggestion-page/
+ 						</a> <br> 
+ 						<strong>Tool(s):</strong> Python, Javascript, AngularJS, MySQL
+ 					</td>
+ 				</tr>
+ 			</table>
+ 		</div>
+ 		
+ 		<a href="https://github.com/trishamrkt" id="github-link" target="_blank">view github    <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+ 	</div>
+
+ 	<!-- ABOUT PAGE -->
+ 	<div id="about" class="about panel">
+ 		<h1 class="title">about me</h1>
+ 		<div id="profile-card">
+ 			<img id="profile-pic" src="images/me2.png">
+ 			<h2>patricia</h2>
+ 			<p>
+ 				BA.SC Computer Engineering | University of Toronto <br>
+ 				Graduated May 2020 <br>
+ 			</p>
+ 			<p>
+ 				<strong>Contact me: </strong><br>
+ 				Email: <a href="mailto:patsmrkt@gmail.com<br">patsmrkt@gmail.com</a> <br>
+ 				Github: <a href="https://github.com/trishamrkt" target=_blank>trishamrkt</a> <br>
+ 				LinkedIn: <a href="https://www.linkedin.com/in/patricia-marukot-5b895414b/">Patricia Marukot</a><br>
+
+ 				Resume: <a href="./docs/resume.pdf" download>PDF</a>
+ 			</p>
+ 		</div>
+ 		<!-- <div class="profile-pic card">
+ 			<img src="images/me2.jpg">
+ 			<h1>patricia</h1>
+ 			<p>uh i like to code sometimes :)</p>
+ 		</div> -->
+ 	</div> 		
+ 	</div>
+
+ 	<script>
+ 		window.onscroll = function() {scrollFunction()};
+ 		$(document).ready(function(){
+	  // Add smooth scrolling to all links
+	  $("a").on('click', function(event) {
+
+	    // Make sure this.hash has a value before overriding default behavior
+	    if (this.hash !== "") {
+	      // Prevent default anchor click behavior
+	      event.preventDefault();
+
+	      // Store hash
+	      var hash = this.hash;
+
+	      // Using jQuery's animate() method to add smooth page scroll
+	      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+	      $('html, body').animate({
+	        scrollTop: $(hash).offset().top
+	      }, 500, function(){
+
+	        // Add hash (#) to URL when done scrolling (default click behavior)
+	        window.location.hash = hash;
+	      });
+	    } // End if
+	  });
+	});
+ 	</script>
+  <script src="js/index.js"></script>
+</body>
+</html>

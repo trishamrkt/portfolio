@@ -1,0 +1,56 @@
+#profile-pic {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+#profile-card {
+	font-family: "Lato", sans-serif;
+	font-weight: 300;
+	font-size: 1.2em;
+}
+
+#profile-card h2 {
+	font-family: "Raleway", sans-serif;
+	font-size: 2em;
+}
+
+#profile-card  a {
+	text-decoration: none;
+	color: #4bada6;
+	transition: 0.3s;
+}
+
+#profile-card a:hover {
+	color: #1b756f;
+}
+
+/* TEMPORARILY DEPRECATED */
+.profile-pic {
+  margin-left: 18%;
+}
+
+.card {
+  max-width: 250px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.card img {
+  width: 100%;
+  border-bottom: 5px solid #77e0d9;
+}
+
+.card h1 {
+  font-size: 1.5em;
+  color: #222f;
+  margin: auto;
+}
+
+.card p {
+  margin: 0;
+  padding-bottom: 20px;
+  font-size: 1em;
+  color: #999;
+}
